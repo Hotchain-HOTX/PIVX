@@ -268,11 +268,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop PIVX server.");
+            "\nStop HOTCHAIN server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PIVX server stopping";
+    return "HOTCHAIN server stopping";
 }
 
 
@@ -364,37 +364,37 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* PIVX features */
-        {"pivx", "masternode", &masternode, true, true, false},
-        {"pivx", "listmasternodes", &listmasternodes, true, true, false},
-        {"pivx", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"pivx", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"pivx", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"pivx", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"pivx", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"pivx", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"pivx", "masternodedebug", &masternodedebug, true, true, false},
-        {"pivx", "startmasternode", &startmasternode, true, true, false},
-        {"pivx", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"pivx", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"pivx", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"pivx", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"pivx", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"pivx", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"pivx", "mnbudget", &mnbudget, true, true, false},
-        {"pivx", "preparebudget", &preparebudget, true, true, false},
-        {"pivx", "submitbudget", &submitbudget, true, true, false},
-        {"pivx", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"pivx", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"pivx", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"pivx", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"pivx", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"pivx", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"pivx", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"pivx", "checkbudgets", &checkbudgets, true, true, false},
-        {"pivx", "mnsync", &mnsync, true, true, false},
-        {"pivx", "spork", &spork, true, true, false},
-        {"pivx", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* HOTCHAIN features */
+        {"hotchain", "masternode", &masternode, true, true, false},
+        {"hotchain", "listmasternodes", &listmasternodes, true, true, false},
+        {"hotchain", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"hotchain", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"hotchain", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"hotchain", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"hotchain", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"hotchain", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"hotchain", "masternodedebug", &masternodedebug, true, true, false},
+        {"hotchain", "startmasternode", &startmasternode, true, true, false},
+        {"hotchain", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"hotchain", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"hotchain", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"hotchain", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"hotchain", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"hotchain", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"hotchain", "mnbudget", &mnbudget, true, true, false},
+        {"hotchain", "preparebudget", &preparebudget, true, true, false},
+        {"hotchain", "submitbudget", &submitbudget, true, true, false},
+        {"hotchain", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"hotchain", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"hotchain", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"hotchain", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"hotchain", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"hotchain", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"hotchain", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"hotchain", "checkbudgets", &checkbudgets, true, true, false},
+        {"hotchain", "mnsync", &mnsync, true, true, false},
+        {"hotchain", "spork", &spork, true, true, false},
+        {"hotchain", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -464,11 +464,11 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false, false, true},
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false, false, true},
         {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false, false, false},
-        {"zerocoin", "getzpivseed", &getzpivseed, false, false, true},
-        {"zerocoin", "setzpivseed", &setzpivseed, false, false, true},
+        {"zerocoin", "getzhotxseed", &getzhotxseed, false, false, true},
+        {"zerocoin", "setzhotxseed", &setzhotxseed, false, false, true},
         {"zerocoin", "generatemintlist", &generatemintlist, false, false, true},
-        {"zerocoin", "searchdzpiv", &searchdzpiv, false, false, true},
-        {"zerocoin", "dzpivstate", &dzpivstate, false, false, true},
+        {"zerocoin", "searchdzhotx", &searchdzhotx, false, false, true},
+        {"zerocoin", "dzhotxstate", &dzhotxstate, false, false, true},
         {"zerocoin", "clearspendcache", &clearspendcache, false, false, true}
 
 #endif // ENABLE_WALLET
@@ -633,7 +633,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> pivx-cli " + methodname + " " + args + "\n";
+    return "> hotchain-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

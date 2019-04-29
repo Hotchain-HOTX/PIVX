@@ -1,0 +1,8 @@
+/usr/bin/hotchain-cli		--	gen_context(system_u:object_r:hotchain_exec_t,s0)
+/usr/sbin/hotchaind		--	gen_context(system_u:object_r:hotchain_exec_t,s0)
+/usr/lib(64)?/hotchain/hotchaind		--	gen_context(system_u:object_r:hotchain_exec_t,s0)
+
+/etc/hotchain(/.*)?		gen_context(system_u:object_r:hotchain_conf_t,s0)
+/var/lib/hotchain(/.*)?		gen_context(system_u:object_r:hotchain_var_lib_t,s0)
+
+(/var)?/run/hotchaind(/.*)?   gen_context(system_u:object_r:hotchain_var_run_t,s0)
