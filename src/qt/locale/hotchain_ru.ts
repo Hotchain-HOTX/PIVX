@@ -2854,7 +2854,7 @@ Maximum allowed: </source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
+        <source>Invalid Hotchain Address</source>
         <translation>неправильный HOTCHAIN адрес</translation>
     </message>
     <message>
@@ -4161,7 +4161,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation>Разработчики Hotchain</translation>
     </message>
     <message>
@@ -5042,8 +5042,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 можно использовать только в сети)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 можно использовать только в сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5054,8 +5054,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(неуплата: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(должен быть 51472 для mainet)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(должен быть 29069 для mainet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5162,7 +5162,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
         <translation>Copyright (C) 2015-%i Разработчики Hotchain</translation>
     </message>
     <message>

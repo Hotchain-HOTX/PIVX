@@ -39,7 +39,7 @@ extern int nSwiftTXDepth;
 extern int nZeromintPercentage;
 extern const int64_t AUTOMINT_DELAY;
 extern int nPreferredDenom;
-extern int nAnonymizeHotxAmount;
+extern int nAnonymizeHotchainAmount;
 extern int nLiquidityProvider;
 extern bool fEnableZeromint;
 extern bool fEnableAutoConvert;

@@ -97,10 +97,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeHotxAmount"))
-        settings.setValue("nAnonymizeHotxAmount", 1000);
+    if (!settings.contains("nAnonymizeHotchainAmount"))
+        settings.setValue("nAnonymizeHotchainAmount", 1000);
 
-    nAnonymizeHotxAmount = settings.value("nAnonymizeHotxAmount").toLongLong();
+    nAnonymizeHotchainAmount = settings.value("nAnonymizeHotchainAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -176,8 +176,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeHotxAmount"))
-        SoftSetArg("-anonymizehotchainamount", settings.value("nAnonymizeHotxAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeHotchainAmount"))
+        SoftSetArg("-anonymizehotchainamount", settings.value("nAnonymizeHotchainAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -272,8 +272,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeHotxAmount:
-            return QVariant(nAnonymizeHotxAmount);
+        case AnonymizeHotchainAmount:
+            return QVariant(nAnonymizeHotchainAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -410,10 +410,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("fHideOrphans", fHideOrphans);
             emit hideOrphansChanged(fHideOrphans);
             break;
-        case AnonymizeHotxAmount:
-            nAnonymizeHotxAmount = value.toInt();
-            settings.setValue("nAnonymizeHotxAmount", nAnonymizeHotxAmount);
-            emit anonymizeHotxAmountChanged(nAnonymizeHotxAmount);
+        case AnonymizeHotchainAmount:
+            nAnonymizeHotchainAmount = value.toInt();
+            settings.setValue("nAnonymizeHotchainAmount", nAnonymizeHotchainAmount);
+            emit anonymizeHotchainAmountChanged(nAnonymizeHotchainAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

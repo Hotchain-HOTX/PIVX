@@ -3106,7 +3106,7 @@ https://www.transifex.com/hotchain-project/hotchain-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation>Os desenvolvedores do Hotchain</translation>
     </message>
     <message>
@@ -3707,8 +3707,8 @@ https://www.transifex.com/hotchain-project/hotchain-project-translations</transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 could be used only on mainnet)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3719,8 +3719,8 @@ https://www.transifex.com/hotchain-project/hotchain-project-translations</transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(deve ser 51472 para mainnet)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(deve ser 29069 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3771,7 +3771,7 @@ https://www.transifex.com/hotchain-project/hotchain-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Hotchain</translation>
     </message>
     <message>

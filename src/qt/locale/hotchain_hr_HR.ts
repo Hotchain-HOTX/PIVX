@@ -2856,8 +2856,8 @@ Maksimalno dopušteno:</translation>
         <translation>Nije dodijeljena adresa "Plati", stvarajući lokalnu uplatu</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
-        <translation>Nevažeća Hotx Adresa</translation>
+        <source>Invalid Hotchain Address</source>
+        <translation>Nevažeća Hotchain Adresa</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -4165,7 +4165,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Dash Core programeri</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation>Hotchain programeri</translation>
     </message>
     <message>
@@ -5047,8 +5047,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Morate odrediti masternodeprivkey u konfiguraciji. Za pomoć pogledajte dokumentaciju.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 se može koristiti samo na mainnetu)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 se može koristiti samo na mainnetu)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5059,8 +5059,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(mora biti 51472 za glavnu mrežu)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(mora biti 29069 za glavnu mrežu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5167,8 +5167,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
+        <translation>Autorska prava (C) 2015-%i The Pivx Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

@@ -3860,7 +3860,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Hotx Address</source>
+        <source>Invalid Hotchain Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5720,7 +5720,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6908,8 +6908,8 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation type="unfinished">(51472 could be used only on mainnet)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation type="unfinished">(29069 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6923,7 +6923,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 51472 for mainnet)</source>
+        <source>(must be 29069 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7073,7 +7073,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

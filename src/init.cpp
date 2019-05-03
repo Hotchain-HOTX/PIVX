@@ -1507,7 +1507,7 @@ bool AppInit2()
                 bool reindexDueWrappedSerials = false;
                 bool reindexZerocoin = false;
                 int chainHeight = chainActive.Height();
-                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
+                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight>0 && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
 
                     // Supply needs to be exactly GetSupplyBeforeFakeSerial + GetWrapppedSerialInflationAmount
                     CBlockIndex* pblockindex = chainActive[Params().Zerocoin_Block_EndFakeSerial() + 1];
@@ -1540,7 +1540,8 @@ bool AppInit2()
                 }
 
                 // Check Recalculation result
-                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
+                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight>0 && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
+                    LogPrintf("qui3");
                     CBlockIndex* pblockindex = chainActive[Params().Zerocoin_Block_EndFakeSerial() + 1];
                     CAmount zhotxSupplyCheckpoint = Params().GetSupplyBeforeFakeSerial() + GetWrapppedSerialInflationAmount();
                     if (pblockindex->GetZerocoinSupply() != zhotxSupplyCheckpoint)
@@ -1924,7 +1925,7 @@ bool AppInit2()
     }
 
 // XX42 Remove/refactor code below. Until then provide safe defaults
-    nAnonymizeHotxAmount = 2;
+    nAnonymizeHotchainAmount = 2;
 
 //    nLiquidityProvider = GetArg("-liquidityprovider", 0); //0-100
 //    if (nLiquidityProvider != 0) {
@@ -1949,7 +1950,7 @@ bool AppInit2()
 
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nSwiftTXDepth %d\n", nSwiftTXDepth);
-    LogPrintf("Anonymize HOTCHAIN Amount %d\n", nAnonymizeHotxAmount);
+    LogPrintf("Anonymize HOTCHAIN Amount %d\n", nAnonymizeHotchainAmount);
     LogPrintf("Budget Mode %s\n", strBudgetMode.c_str());
 
     /* Denominations

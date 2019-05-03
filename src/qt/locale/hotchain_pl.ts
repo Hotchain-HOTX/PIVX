@@ -3024,8 +3024,8 @@ Maksymalna dozwolona:</translation>
         <translation>Nie podano adresu "Zapłać do", tworząc płatność lokalną</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
-        <translation>Nieprawidłowy adres Hotx</translation>
+        <source>Invalid Hotchain Address</source>
+        <translation>Nieprawidłowy adres Hotchain</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -4465,7 +4465,7 @@ Proszę być cierpliwym...</translation>
         <translation>Twórcy Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation>Twórcy Hotchain</translation>
     </message>
     <message>
@@ -5258,8 +5258,8 @@ Proszę być cierpliwym...</translation>
         <translation>Nie można znaleźć wystarczającej liczby funduszy ukrytych dla tej transakcji.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 może być używany tylko w sieci mainnet)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 może być używany tylko w sieci mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5270,8 +5270,8 @@ Proszę być cierpliwym...</translation>
         <translation>(domyślnie: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(musi być 51472 dla mainnetu)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(musi być 29069 dla mainnetu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5330,8 +5330,8 @@ Proszę być cierpliwym...</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Pivx Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

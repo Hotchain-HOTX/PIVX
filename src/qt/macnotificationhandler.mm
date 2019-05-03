@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.hotchain.Hotx-Qt";
+        return @"io.hotchain.Hotchain-Qt";
     } else {
         return [self __bundleIdentifier];
     }

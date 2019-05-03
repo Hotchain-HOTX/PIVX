@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.hotchain.Hotx-Qt</string>
+  <string>io.hotchain.Hotchain-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.hotchain.HotxPayment</string>
+      <string>io.hotchain.HotchainPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>hotchain</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.hotchain.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Hotx payment request</string>
+      <string>Hotchain payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

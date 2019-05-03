@@ -2991,8 +2991,8 @@ Maximum autorisé:</translation>
         <translation>Aucune adresse 'Payer à' de fournie, création d'un paiement local</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
-        <translation>Adresse Hotx incorrecte</translation>
+        <source>Invalid Hotchain Address</source>
+        <translation>Adresse Hotchain incorrecte</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -4423,7 +4423,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Les développeurs Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The Pivx Core developers</source>
         <translation>Les développeurs Hotchain</translation>
     </message>
     <message>
@@ -5312,8 +5312,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vous devez spécifier une masternodeprivkey dans la configuration. Veuillez consulter la documentation pour obtenir de l'aide.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 ne peut être utilisé que pour le mainnet)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 ne peut être utilisé que pour le mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5324,8 +5324,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(doit être 51472 pour le mainnet)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(doit être 29069 pour le mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5436,7 +5436,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Copyright (C) 2014-%i Les développeurs de DASH Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
         <translation>Copyright (C) 2015-%i Les développeurs de Hotchain</translation>
     </message>
     <message>

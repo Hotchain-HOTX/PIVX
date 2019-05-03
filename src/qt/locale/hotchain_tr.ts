@@ -2257,7 +2257,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in hotchain.c
     </message>
     <message>
         <source>Cannot start hotchain: click-to-pay handler</source>
-        <translation>Hotx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>Hotchain başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid HOTCHAIN address or malformed URI parameters.</source>
@@ -2740,8 +2740,8 @@ Maksimum bırakılan: </translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
-        <translation>Geçersiz Hotx Adresi</translation>
+        <source>Invalid Hotchain Address</source>
+        <translation>Geçersiz Hotchain Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3958,8 +3958,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>The PIVX Core developers</translation>
+        <source>The Pivx Core developers</source>
+        <translation>The Pivx Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>

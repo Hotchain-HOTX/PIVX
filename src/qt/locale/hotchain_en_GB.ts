@@ -2975,8 +2975,8 @@ Maximum allowed: </translation>
         <translation>No 'Pay To' address provided, creating local payment</translation>
     </message>
     <message>
-        <source>Invalid Hotx Address</source>
-        <translation>Invalid Hotx Address</translation>
+        <source>Invalid Hotchain Address</source>
+        <translation>Invalid Hotchain Address</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -4318,8 +4318,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>The PIVX Core developers</translation>
+        <source>The Pivx Core developers</source>
+        <translation>The Pivx Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -5223,8 +5223,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 could be used only on mainnet)</translation>
+        <source>(29069 could be used only on mainnet)</source>
+        <translation>(29069 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5235,8 +5235,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(must be 51472 for mainnet)</translation>
+        <source>(must be 29069 for mainnet)</source>
+        <translation>(must be 29069 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5347,8 +5347,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Pivx Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Pivx Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
